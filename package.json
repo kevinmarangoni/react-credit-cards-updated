@@ -106,7 +106,7 @@
     "clean": "del-cli es/* && del-cli lib/*",
     "lint": "eslint  --ext .js --ext .jsx src test tools",
     "lint:styles": "stylelint 'src/**/*.scss'",
-    "validate": "npm run lint && npm run lint:styles && npm run test:coverage && npm run size",
+    "validate": "npm run lint && npm run lint:styles",
     "prepublishOnly": "npm run validate"
   },
   "browserslist": [
