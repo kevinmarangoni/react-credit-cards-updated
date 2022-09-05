@@ -1,5 +1,4 @@
 import React from 'react';
-import { mount } from 'enzyme';
 
 import ReactCreditCards from '../src';
 
@@ -15,7 +14,7 @@ const props = {
 };
 
 function setup(ownProps = props) {
-  return mount(<ReactCreditCards {...ownProps} />);
+  return (<ReactCreditCards {...ownProps} />);
 }
 
 describe('ReactCreditCards', () => {
