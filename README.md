@@ -4,6 +4,8 @@
 
 A slick credit card component for React.
 
+NOTE: SINCE AMAROTEAM IS NOT UPDATING DEPENDENCIES, I FORKED AND UPDATED/REMOVED DEPENDENCIES, FEEL FREE TO CONTACT OR CONTRIBUTE TO THE PROJECT
+
 ![demo](https://raw.githubusercontent.com/amarofashion/react-credit-cards/master/docs/media/rccs.gif)
 
 [Demo](https://amarofashion.github.io/react-credit-cards/)
